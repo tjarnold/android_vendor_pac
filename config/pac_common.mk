@@ -52,7 +52,6 @@ PRODUCT_COPY_FILES += \
 
 # PAC Packages
 PRODUCT_PACKAGES += \
-    GooglePacman \
     PacPapers \
     PacStats
 
