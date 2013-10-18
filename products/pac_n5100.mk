@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_n5110,$(TARGET_PRODUCT))
+ifeq (pac_n5100,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_tvdpi
@@ -21,10 +21,13 @@ PRODUCT_COPY_FILES += \
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
-# Inherit CM device configuration
-$(call inherit-product, device/samsung/n5110/cm.mk)
+# vendor hack
+$(call vendor-replace,samsung,n5100)
 
-PRODUCT_NAME := pac_n5110
+# Inherit CM device configuration
+$(call inherit-product, device/samsung/n5100/cm.mk)
+
+PRODUCT_NAME := pac_n5100
 
 # Update local_manifest.xml
 GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))

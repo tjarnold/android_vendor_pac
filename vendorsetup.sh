@@ -38,6 +38,7 @@ add_lunch_combo pac_captivatemtd-userdebug
 add_lunch_combo pac_fascinatemtd-userdebug
 add_lunch_combo pac_galaxysmtd-userdebug
 add_lunch_combo pac_galaxysl-userdebug
+add_lunch_combo pac_mesmerizemtd-userdebug
 add_lunch_combo pac_i777-userdebug
 add_lunch_combo pac_i9100-userdebug
 add_lunch_combo pac_i9103-userdebug
@@ -47,6 +48,7 @@ add_lunch_combo pac_d710-userdebug
 add_lunch_combo pac_p1-userdebug
 add_lunch_combo pac_p5-userdebug
 add_lunch_combo pac_p5wifi-userdebug
+add_lunch_combo pac_showcasemtd-userdebug
 # Samsung 2012
 add_lunch_combo pac_exhilarate-userdebug
 add_lunch_combo pac_hercules-userdebug
@@ -123,6 +125,7 @@ add_lunch_combo pac_r950-userdebug
 add_lunch_combo pac_t0lte-userdebug
 add_lunch_combo pac_t0lteatt-userdebug
 add_lunch_combo pac_t0ltetmo-userdebug
+add_lunch_combo pac_n5100-userdebug
 add_lunch_combo pac_n5110-userdebug
 add_lunch_combo pac_n7000-userdebug
 add_lunch_combo pac_n7100-userdebug
