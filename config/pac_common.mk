@@ -13,6 +13,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.config.notification_sound=Proxima.ogg \
   ro.config.alarm_alert=Cesium.ogg
 
+# My Packages Packages
+PRODUCT_PACKAGES += \
+    GooManager
+
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/apk/novalauncher.apk:system/app/novalauncher.apk \
     vendor/pac/prebuilt/common/apk/titanium.apk:system/app/titanium.apk
