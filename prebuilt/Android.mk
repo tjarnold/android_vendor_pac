@@ -22,7 +22,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := GooManager
 LOCAL_MODULE_OWNER := aokp
-LOCAL_SRC_FILES := common/app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := common/apk/$(LOCAL_MODULE).apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
