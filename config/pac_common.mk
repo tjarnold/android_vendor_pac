@@ -70,11 +70,6 @@ PRODUCT_COPY_FILES += \
 # AOKP Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
 
-### PARANOID ###
-# PARANOID Packages
-PRODUCT_PACKAGES += \
-    Focal
-
 # ParanoidAndroid Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/$(TARGET_PRODUCT)
