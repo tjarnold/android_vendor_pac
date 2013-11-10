@@ -1,3 +1,5 @@
+# Acer
+add_lunch_combo pac_a700-userdebug
 # Amazon
 add_lunch_combo pac_otter-userdebug
 add_lunch_combo pac_otter2-userdebug
@@ -37,6 +39,7 @@ add_lunch_combo pac_vivo-userdebug
 add_lunch_combo pac_u8860-userdebug
 add_lunch_combo pac_u8800pro-userdebug
 # LGE
+add_lunch_combo pac_d802-userdebug
 add_lunch_combo pac_e975-userdebug
 add_lunch_combo pac_ls970-userdebug
 add_lunch_combo pac_p760-userdebug
@@ -47,7 +50,9 @@ add_lunch_combo pac_vs920-userdebug
 # Motorola
 add_lunch_combo pac_edison-userdebug
 add_lunch_combo pac_ghostatt-userdebug
+add_lunch_combo pac_ghostspr-userdebug
 add_lunch_combo pac_ghosttmo-userdebug
+add_lunch_combo pac_ghostusc-userdebug
 add_lunch_combo pac_ghostvzw-userdebug
 add_lunch_combo pac_mb886-userdebug
 add_lunch_combo pac_maserati-userdebug
@@ -156,6 +161,7 @@ add_lunch_combo pac_haida-userdebug
 add_lunch_combo pac_hallon-userdebug
 add_lunch_combo pac_hayabusa-userdebug
 add_lunch_combo pac_honami-userdebug
+add_lunch_combo pac_huashan-userdebug
 add_lunch_combo pac_iyokan-userdebug
 add_lunch_combo pac_kumquat-userdebug
 add_lunch_combo pac_lotus-userdebug
@@ -168,6 +174,7 @@ add_lunch_combo pac_pollux_windy-userdebug
 add_lunch_combo pac_pollux-userdebug
 add_lunch_combo pac_satsuma-userdebug
 add_lunch_combo pac_smultron-userdebug
+add_lunch_combo pac_togari-userdebug
 add_lunch_combo pac_tsubasa-userdebug
 add_lunch_combo pac_urushi-userdebug
 add_lunch_combo pac_yuga-userdebug
