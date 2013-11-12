@@ -13,9 +13,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.config.notification_sound=Proxima.ogg \
   ro.config.alarm_alert=Cesium.ogg
 
-# Copy specific ROM files
+# My Packages Packages
+PRODUCT_PACKAGES += \
+    GooManager
+
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/apk/PacConsole.apk:system/app/PacConsole.apk
+    vendor/pac/prebuilt/common/apk/novalauncher.apk:system/app/novalauncher.apk \
+    vendor/pac/prebuilt/common/apk/titanium.apk:system/app/titanium.apk
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -52,7 +56,6 @@ PRODUCT_COPY_FILES += \
 
 # PAC Packages
 PRODUCT_PACKAGES += \
-    GooglePacman \
     PacPapers \
     PacStats
 
@@ -66,11 +69,6 @@ PRODUCT_COPY_FILES += \
 
 # AOKP Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
-
-### PARANOID ###
-# PARANOID Packages
-PRODUCT_PACKAGES += \
-    HALO
 
 # ParanoidAndroid Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/common
